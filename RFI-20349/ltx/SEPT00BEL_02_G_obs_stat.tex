@@ -1,0 +1,58 @@
+\subsection{Analysis of observation statistics for GPS NavSTAR}%
+\label{subsec:AnalysisofobservationstatisticsforGPSNavSTAR}%
+\setlength{\tabcolsep}{4pt}%
+\begin{longtabu}[c]{rcl}%
+statistics observation file&:&SEPT00BEL\_R\_20203491400\_30M\_01S\_MO\_G.obsstat\\%
+navigation signals&:&G1C\\%
+\end{longtabu}%
+\subsubsection{Observables count per navigation signal}%
+\label{ssubsec:Observablescountpernavigationsignal}%
+The following table represents the number of observations made for each examined navigation signal. The percentages per navigation signal are calculated by dividing by the  number of observations obtained from Two Line Elements (TLE) at the recorded interval. The last column represents the number of observations possible during the observed time interval.%
+\setlength{\tabcolsep}{4pt}%
+\begin{longtabu}[c]{l|rr|r}%
+\textbf{PRN}&\textbf{G1C}&\textbf{}&\textbf{TLE\_count}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{4}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+G05&1490&82.8\%&1800.0\\%
+G08&313&19.1\%&1637.0\\%
+G10&439&33.4\%&1315.0\\%
+G11&357&28.4\%&1255.0\\%
+G13&1529&84.9\%&1800.0\\%
+G14&1543&{-}{-}{-}&0\\%
+G15&1528&84.9\%&1800.0\\%
+G17&1478&82.1\%&1800.0\\%
+G18&799&{-}{-}{-}&0\\%
+G19&18&2.2\%&816.0\\%
+G20&1501&83.4\%&1800.0\\%
+G23&1491&82.8\%&1800.0\\%
+G24&1511&83.9\%&1800.0\\%
+G28&1548&86.0\%&1800.0\\%
+G30&1491&82.8\%&1800.0\\%
+\end{longtabu}%
+Figure \ref{fig:obst_gnss_G} represents the absolute count of observables for each navigation signal set out against the maximum possible observations obtained from the TLEs. The relative observation count is represented in Figure \ref{fig:prec_obst_gnss_G}.%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\textwidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-ObsTLE.png}%
+\caption{\label{fig:obst_gnss_G} Observables overview for GNSS GPS NavSTAR}%
+\end{figure}
+
+%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\textwidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-PERC.png}%
+\caption{\label{fig:prec_obst_gnss_G} Relative observation count per navigation signal for GNSS GPS NavSTAR}%
+\end{figure}
+
+%
+\clearpage
+

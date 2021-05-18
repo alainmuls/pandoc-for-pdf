@@ -1,0 +1,1878 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lst",
+				"lst_MARKER_TYPES"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"add",
+				"add_argument"
+			],
+			[
+				"exc",
+				"excludeGNSSs"
+			],
+			[
+				"mathb",
+				"mathbb{text}\tlatex-document"
+			],
+			[
+				"it",
+				"item\tlatex-document"
+			],
+			[
+				"neline",
+				"newline\tlatex-document"
+			],
+			[
+				"rig",
+				"rightarrow\tlatex-mathsymbols"
+			],
+			[
+				"right",
+				"rightarrow\tlatex-mathsymbols"
+			],
+			[
+				"su",
+				"subsection{title}\tlatex-document"
+			],
+			[
+				"tabb",
+				"tabbullet\t3PfD-kickoff.tex"
+			],
+			[
+				"rene",
+				"renewcommand{cmd}{def}\tlatex-document"
+			],
+			[
+				"subse",
+				"subsection[short]{title}\tlatex-document"
+			],
+			[
+				"input",
+				"input{file}\tlatex-document"
+			],
+			[
+				"end",
+				"end{longtable}\tpimp.tex"
+			],
+			[
+				"mid",
+				"midrule\tbooktabs"
+			],
+			[
+				"usep",
+				"usepackage{package}\tlatex-document"
+			],
+			[
+				"trans",
+				"transfMeanSNRs\tstatement"
+			],
+			[
+				"runN",
+				"runNMEAParsingSerialDevice\tfunction"
+			],
+			[
+				"sign",
+				"signalOpenSerialDevice\tstatement"
+			],
+			[
+				"hox",
+				"hbox2\tstatement"
+			],
+			[
+				"cSett",
+				"cbSettings\tstatement"
+			],
+			[
+				"crea",
+				"createSerialDialog\tfunction"
+			],
+			[
+				"heigh",
+				"heightBars\tparam"
+			],
+			[
+				"col",
+				"colorsSNR\tstatement"
+			],
+			[
+				"nme",
+				"nmeaName\tstatement"
+			],
+			[
+				"stat",
+				"statusPRNConsole\tstatement"
+			],
+			[
+				"prn",
+				"PRNStatusConsole\tclass"
+			],
+			[
+				"bl",
+				"black\tinstance"
+			],
+			[
+				"curFre",
+				"curFreqName\tstatement"
+			],
+			[
+				"loCnPrnB",
+				"loCnPrnBar"
+			],
+			[
+				"cn0PRN",
+				"cn0PRNBar1"
+			],
+			[
+				"setal",
+				"setAlignment\tPyQt Functions"
+			],
+			[
+				"centr",
+				"centralWidget\tstatement"
+			],
+			[
+				"setfo",
+				"setFont\tPyQt Functions"
+			],
+			[
+				"qual",
+				"satSystQual\tstatement"
+			],
+			[
+				"qu",
+				"qualSystAll\tstatement"
+			],
+			[
+				"hb",
+				"hbox2\tstatement"
+			],
+			[
+				"sete",
+				"setEnabled\tPyQt Functions"
+			],
+			[
+				"ische",
+				"isChecked\tmodule"
+			],
+			[
+				"issel",
+				"isSelected\tPyQt Functions"
+			],
+			[
+				"togg",
+				"toggled\tPyQt Functions"
+			],
+			[
+				"la",
+				"latitude\tPyQt Functions"
+			],
+			[
+				"lati",
+				"latitude\tPyQt Functions"
+			],
+			[
+				"QDial",
+				"QDialog\tPyQt Classes"
+			],
+			[
+				"setf",
+				"setFont\tmodule"
+			],
+			[
+				"templ",
+				"templateELLH\tstatement"
+			],
+			[
+				"template",
+				"templateUTME\tstatement"
+			],
+			[
+				"Forma",
+				"formats\tmodule"
+			],
+			[
+				"ang",
+				"angular"
+			],
+			[
+				"signa",
+				"signalAngularStateValue"
+			],
+			[
+				"geo",
+				"geodCrds"
+			],
+			[
+				"Refp",
+				"RefPtGeod"
+			],
+			[
+				"setA",
+				"setAngularValue"
+			],
+			[
+				"reg",
+				"reg_ex"
+			],
+			[
+				"angula",
+				"angular_lineedit\t(page_reference_position.py)"
+			],
+			[
+				"sett",
+				"settingsFormats"
+			],
+			[
+				"For",
+				"Formats"
+			],
+			[
+				"mainw",
+				"QMainWindow\tPyQt Classes"
+			],
+			[
+				"defau",
+				"defaultSettings"
+			],
+			[
+				"collect",
+				"collectSettingsFormat"
+			],
+			[
+				"form",
+				"formatGeodetic\tstatement"
+			],
+			[
+				"current",
+				"currentIndex"
+			],
+			[
+				"formatT",
+				"formatTimeChange"
+			],
+			[
+				"forma",
+				"formatUTM\tstatement"
+			],
+			[
+				"for",
+				"formatUTM\tstatement"
+			],
+			[
+				"cbC",
+				"cbCrdUTM\tstatement"
+			],
+			[
+				"PageF",
+				"PageFormatWidget"
+			],
+			[
+				"formatg",
+				"formatGeodetic\tstatement"
+			],
+			[
+				"signalfo",
+				"signalFormatGeodetic"
+			],
+			[
+				"gbSt",
+				"gbStyleTitle"
+			],
+			[
+				"an",
+				"angularType"
+			],
+			[
+				"angular",
+				"angular_lineedit"
+			],
+			[
+				"nume",
+				"number"
+			],
+			[
+				"utmCrd",
+				"utmCrdRange"
+			],
+			[
+				"utmcr",
+				"utmCrdType"
+			],
+			[
+				"bool",
+				"boolValue"
+			],
+			[
+				"QRegE",
+				"QRegExpValidator"
+			],
+			[
+				"crd",
+				"crdUTM"
+			],
+			[
+				"valu",
+				"valueSeender"
+			],
+			[
+				"Dec",
+				"DecimalValidator\t(decimal_validator.py)"
+			],
+			[
+				"my",
+				"my_double_validator\t(utm_validator.py)"
+			],
+			[
+				"valid",
+				"validatorUTM\t(utm_lineedit.py)"
+			],
+			[
+				"UTMl",
+				"UTMLineEdit"
+			],
+			[
+				"setI",
+				"setInputMask"
+			],
+			[
+				"lecr",
+				"leCrdUTMNS\tstatement"
+			],
+			[
+				"sty",
+				"styleGBTitle"
+			],
+			[
+				"gbf",
+				"gbFormHeight"
+			],
+			[
+				"styleg",
+				"styleGBTitle"
+			],
+			[
+				"style",
+				"styleGBTitle"
+			],
+			[
+				"styleG",
+				"styleGBTitle\t(preferences_dialog.py)"
+			],
+			[
+				"loF",
+				"loFormHeight\tstatement"
+			],
+			[
+				"lof",
+				"loFormHeight"
+			],
+			[
+				"sbcr",
+				"sbCrdUTMSub\tstatement"
+			],
+			[
+				"sb",
+				"sbCrdUTMSub\tstatement"
+			],
+			[
+				"lofor",
+				"loFormUTM"
+			],
+			[
+				"tabu",
+				"tabUTM"
+			],
+			[
+				"prefe",
+				"preferencesDialog"
+			],
+			[
+				"pag",
+				"pagesWidget"
+			],
+			[
+				"conten",
+				"contentsWidget"
+			],
+			[
+				"change",
+				"changePage"
+			],
+			[
+				"pyqt",
+				"pyqtSlot\t(nmea_worker.py)"
+			],
+			[
+				"Pref",
+				"Preferences\t(pyQtNMEA.py)"
+			],
+			[
+				"lb",
+				"lblPref\tstatement"
+			],
+			[
+				"gbst",
+				"gbStyleTitle\tstatement"
+			],
+			[
+				"qforml",
+				"QFormLayout\tPyQt Classes"
+			],
+			[
+				"tabGe",
+				"tabGeodeticUI"
+			],
+			[
+				"refere",
+				"referenceTabWidget"
+			],
+			[
+				"gb",
+				"gbStyleTitle\tstatement"
+			],
+			[
+				"Prefe",
+				"PreferencesDialog"
+			],
+			[
+				"pref",
+				"preferences_dialog"
+			],
+			[
+				"QLis",
+				"QListWidgetItem"
+			],
+			[
+				"updat",
+				"updateDateTimeFields"
+			],
+			[
+				"pyq",
+				"pyqtSlot"
+			],
+			[
+				"nm",
+				"nmea2Parse\tstatement"
+			],
+			[
+				"DateTimef",
+				"DatetimeFix"
+			],
+			[
+				"DateT",
+				"DatetimeFix\t(talker.py)"
+			],
+			[
+				"losu",
+				"loSubPVT\tstatement"
+			],
+			[
+				"pvt",
+				"pvtSources"
+			],
+			[
+				"nmeaWidget",
+				"nmeaPVTWidget"
+			],
+			[
+				"Al",
+				"AlignRight"
+			],
+			[
+				"strLon",
+				"strLong"
+			],
+			[
+				"lat",
+				"latitude_minutes"
+			],
+			[
+				"nmean",
+				"nameNMEA\tstatement"
+			],
+			[
+				"loggin",
+				"logutils.autolog('main\t(pyQtNMEA.py)"
+			],
+			[
+				"up",
+				"updatePVTFields\t(nmea_tabwidget.py)"
+			],
+			[
+				"parse",
+				"parseNMEAFile\t(nmea_worker.py)"
+			],
+			[
+				"na",
+				"nameNMEA"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "HEADER.YAML",
+			"settings":
+			{
+				"buffer_size": 724,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_pdf-gen.sh",
+			"settings":
+			{
+				"buffer_size": 993,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 29698,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 9 files for \"URL GitHub\"\n\n/home/amuls/pandoc-for-pdf-how-to/README.md:\n  410  ## Unordered Lists and sub-lists indentation\n  411  \n  412: It is [stated in the GitHub][URL GitHub MD007] site that correct indent for the unordered lists is 2 spaces. But with this indent Pandoc does not identify sub-lists.\n  413  \n  414  Therefore, please use 4 spaces indent for the sub-lists in the unordered lists. Then they will be properly reflected in the PDF files.\n  ...\n  424  b) Link format that WORKS:   **`[Name of the resource](Link)`**.\n  425  \n  426: The problem is that by the [Markdown guidelines][URL GitHub MD007] using exclamation mark before URL is not appropriate. Exclamation mark is used for links to images only. But GitHub engine does not give you an error, it just treats such links as links which opens in the new tab or window in the browser.\n  427  Therefore, to avoid compilation errors in the **pdflatex** engine (which is used by **pandoc**), please use (b) type of URL formatting, which is compliant with Markdown standard.\n  428  \n  ...\n  676  \n  677  [URL 1]: https://github.com/Wandmalfarbe/pandoc-latex-template\n  678: [URL GitHub MD007]: https://github.com/DavidAnson/markdownlint/blob/v0.11.0/doc/Rules.md#md007\n  679  [URL Pandoc Github]: https://github.com/jgm/pandoc/releases\n  680  [Entr project page]: http://eradman.com/entrproject/\n\n3 matches in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 1391,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 100.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"snippet",
+				"Snippet: New longtable"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"tab en vie",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"tit",
+				"Convert Case: Title Case"
+			],
+			[
+				"case",
+				"Convert Case: Title Case"
+			],
+			[
+				"sect\t",
+				"Snippet: Section"
+			],
+			[
+				"misc",
+				"Snippet: BibTeX Misc"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ta en vie",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"frame",
+				"Snippet: Beamer: Frame Two Columns (Figure and List)"
+			],
+			[
+				"u",
+				"Convert Case: Upper Case"
+			],
+			[
+				"title cas",
+				"Convert Case: Title Case"
+			],
+			[
+				"case u",
+				"Convert Case: Upper Case"
+			],
+			[
+				"tab ena vi",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"lo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"add repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"activate",
+				"Virtualenv: Activate"
+			],
+			[
+				"virtu",
+				"Virtualenv: Activate"
+			],
+			[
+				"comme",
+				"Toggle Block Comment"
+			],
+			[
+				"block",
+				"Toggle Block Comment"
+			],
+			[
+				"acti",
+				"Virtualenv: Activate"
+			],
+			[
+				"blo",
+				"Toggle Block Comment"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"comment",
+				"Toggle Block Comment"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"jedi",
+				"Set Syntax: Jedi"
+			],
+			[
+				"reposi",
+				"Package Control: Add Repository"
+			],
+			[
+				"block ",
+				"Toggle Block Comment"
+			],
+			[
+				"com",
+				"Toggle Block Comment"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"sublimeli",
+				"Preferences: SublimeLint Settings – User"
+			],
+			[
+				"plake8",
+				"User: Jump to next Python Flake8 Lint error"
+			],
+			[
+				"linter",
+				"SublimeLinter: Clear Caches"
+			],
+			[
+				"prefs subli",
+				"Preferences: SublimeLinter Key Bindings – User"
+			],
+			[
+				"flake8",
+				"User: Python Flake8 Lint"
+			],
+			[
+				"forma",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"format",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"uppe",
+				"Convert Case: Upper Case"
+			],
+			[
+				"toggle",
+				"Toggle Block Comment"
+			],
+			[
+				"activa",
+				"Virtualenv: Activate"
+			],
+			[
+				"tog",
+				"Toggle Block Comment"
+			],
+			[
+				"bibtex th",
+				"Snippet: BibTeX Master Thesis"
+			],
+			[
+				"snippet ams",
+				"Snippet: AM section"
+			],
+			[
+				"root",
+				"Snippet: LaTeXing Option Root File"
+			],
+			[
+				"toggl",
+				"Toggle Comment"
+			],
+			[
+				"togg com",
+				"Toggle Comment"
+			],
+			[
+				"togg",
+				"Auto Wrap: Toggle"
+			],
+			[
+				"vir",
+				"Virtualenv: Activate"
+			],
+			[
+				"virtua",
+				"Virtualenv: Activate"
+			],
+			[
+				"svn",
+				"SVN: Commit…"
+			],
+			[
+				"svn co",
+				"SVN: Commit…"
+			],
+			[
+				"svn: stat",
+				"SVN: Status"
+			],
+			[
+				"ac",
+				"Virtualenv: Activate"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"act",
+				"Virtualenv: Activate"
+			],
+			[
+				"active",
+				"Virtualenv: Activate"
+			],
+			[
+				"activ",
+				"Virtualenv: Activate"
+			],
+			[
+				"build ca",
+				"Build: Cancel"
+			],
+			[
+				"build syst",
+				"Build: New Build System"
+			],
+			[
+				"activat",
+				"Virtualenv: Activate"
+			],
+			[
+				"build",
+				"Build: Custom Quick Build"
+			],
+			[
+				"add",
+				"Virtualenv: Add directory"
+			],
+			[
+				"scheme",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"python",
+				"Python Fix Imports"
+			],
+			[
+				"pythonsorter",
+				"Python Imports Sorter: sort imports"
+			],
+			[
+				"sorter",
+				"Python Imports Sorter: sort imports"
+			],
+			[
+				"flake",
+				"User: Jump to next Flake8 Lint error"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pretty",
+				"Pretty Print: Format (Pretty Print) Python code"
+			],
+			[
+				"python ",
+				"Python Output Format"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"color ",
+				"Color Picker"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Repository"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"theme",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pyli",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"virten",
+				"Virtualenv: Activate"
+			],
+			[
+				"distra",
+				"Dictionaries: Set Language (Current View)"
+			],
+			[
+				"font",
+				"Set Syntax: Font"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"project",
+				"Project Manager"
+			],
+			[
+				"snip nu",
+				"Snippet: AM numprint"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"alig",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"svn ",
+				"Preferences: SVN Settings"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"save all",
+				"File: Save All"
+			],
+			[
+				"envir",
+				"Snippet: Turn selection into LaTeX environment"
+			],
+			[
+				"latex envir",
+				"Snippet: Turn selection into LaTeX environment"
+			],
+			[
+				"latex cm",
+				"Snippet: Wrap selection in LaTeX command"
+			],
+			[
+				"snipp env",
+				"Snippet: Turn selection into LaTeX environment"
+			],
+			[
+				"lines",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"cmd",
+				"Snippet: Wrap selection in LaTeX command"
+			],
+			[
+				"sect",
+				"Snippet: AM section"
+			],
+			[
+				"svn log",
+				"HypnotoadSVN: Log"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrap",
+				"Snippet: Wrap selection in LaTeX command"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"amart",
+				"Snippet: AMarticle"
+			],
+			[
+				"secti",
+				"Snippet: Section"
+			],
+			[
+				"section",
+				"Snippet: Section"
+			],
+			[
+				"snippetsub",
+				"Snippet: Sub Section"
+			],
+			[
+				"projec",
+				"Project Manager"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"",
+				"Auto Wrap: Toggle"
+			]
+		],
+		"width": 531.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect(/home/amuls/.local/share/anaconda/run/pyqtnmea/anaconda.sock,)",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((\"/home/amuls/.local/share/anaconda/run/pyqtnmea/anaconda.sock\"))",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((/home/amuls/.local/share/anaconda/run/pyqtnmea/anaconda.sock))",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect(\"/home/amuls/.local/share/anaconda/run/pyqtnmea/anaconda.sock\")",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect(/home/amuls/.local/share/anaconda/run/pyqtnmea/anaconda.sock)",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect('/home/amuls/.local/share/anaconda/run/pyqtnmea/anaconda.sock',)",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect(('/home/amuls/.local/share/anaconda/run/pyqtnmea/anaconda.sock',))",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect(/home/amuls/.local/share/anaconda/run/pyqtnmea/anaconda.sock)",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect(\"/home/amuls/.local/share/anaconda/run/pyqtnmea/anaconda.sock\")",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect(/home/amuls/.local/share/anaconda/run/pyqtnmea/anaconda.sock)",
+			"echo $PATH",
+			"import logging; logging.basicConfig(level='DEBUG')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/amuls/pandoc-for-pdf-how-to",
+		"/home/amuls/pandoc-for-pdf-how-to/pandoc",
+		"/home/amuls/pandoc-for-pdf-how-to/pandoc/templates"
+	],
+	"file_history":
+	[
+		"/home/amuls/amPython/rnx3proc/ampyutils/gnss_cmd_opts.py",
+		"/home/amuls/amPython/rnx3proc/gfzrnx/gfzrnx_constants.py",
+		"/home/amuls/amPython/rnx3proc/sbf_daily.py",
+		"/home/amuls/amPython/rnx3proc/sbf_rinex.py",
+		"/tmp/ZB.t",
+		"/home/amuls/amPython/rnx3proc/ubx_rinex.py",
+		"/home/amuls/.cache/.fr-WoVQnV/m8t_10hz_uart.cmd",
+		"/home/amuls/.cache/.fr-XDYHdW/rtknavi_example.conf",
+		"/home/amuls/.cache/.fr-pQgcuV/URL_LIST.txt",
+		"/home/amuls/.cache/.fr-PW7yMT/m8t_1hz_uart.cmd",
+		"/home/amuls/RxTURP/RFI/CST/CST-jamming.csv",
+		"/home/amuls/amPython/rnx3proc/obsstat_analyse.py",
+		"/home/amuls/amPython/rnx3proc/ltx/ltx_rnxobs_reporting.py",
+		"/home/amuls/amPython/rnx3proc/rnx3proc.sublime-project",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/06-MAPPROJ/FIGS/cartoproj.fig",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/06-MAPPROJ/cartomaster.nl.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/06-MAPPROJ/cartomaster.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/06-MAPPROJ/map-global-properties.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/ltxout/SE115ng.nl.log",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/ltxout/06-MAPPROJ/cartomaster.aux",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/06-MAPPROJ/map-introduction.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/06-MAPPROJ/map-local-properties.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/06-MAPPROJ/SC021-EN-05-MapProj.mdfiles",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/06-MAPPROJ/slides-coord-transformation.markdown",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/06-MAPPROJ/slides-global-properties.markdown",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/06-MAPPROJ/slides-local-properties.markdown",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/06-MAPPROJ/slides-map-introduction.markdown",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/06-MAPPROJ/slides-test-mapprojections.markdown",
+		"/home/amuls/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/SE115ng.nl.pdf",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/01-METROLOGY/NL-geod-methodologie.markdown",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/01-METROLOGY/systemeintro.fr.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/Makefile.slides",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/Makefile.NLtex2pdf",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/SE115ng.nl.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/SE115ng.sublime-project",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/02-BOLDRIEHOEK/refsystemen.fr.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/SE115ng.fr.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/02-BOLDRIEHOEK/boldriehoekmaster.fr.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/02-BOLDRIEHOEK/boldriehoekmaster.nl.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/02-BOLDRIEHOEK/boldriehoekmatlab.fr.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/02-BOLDRIEHOEK/boldriehoekmatlab.nl.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/02-BOLDRIEHOEK/boldriehoeksmeetkunde.fr.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/02-BOLDRIEHOEK/boldriehoeksmeetkunde.nl.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/02-BOLDRIEHOEK/hoekeenheden.fr.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/02-BOLDRIEHOEK/hoekeenheden.nl.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/Makefile.xfig2eps",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/02-BOLDRIEHOEK/refsystemen.nl.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/02-BOLDRIEHOEK/slidesboldriehoek.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/02-BOLDRIEHOEK/slidesboldriehoekmaster.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/02-BOLDRIEHOEK/slideseenheden.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/01-METROLOGY/metrology-master.nl.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/01-METROLOGY/metrologie.nl.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/01-METROLOGY/geodesieparts.nl.tex",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/Makefile",
+		"/home/amuls/texmf/tex/latex/rmasty/kmspackage.sty",
+		"/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty",
+		"/home/amuls/Documents/CURSUSSEN/SE426/.gitignore",
+		"/home/amuls/Documents/CURSUSSEN/SE115ng/.gitignore",
+		"/home/amuls/Nextcloud/Documents/OLD.CURSUSSEN/AS005/CARTOGRAPHY/cartobasis.nl.tex",
+		"/home/amuls/Documents/CURSUSSEN/SC021/sc021master.tex",
+		"/home/amuls/Documents/CURSUSSEN/SC021/MAPPROJ/FIGS/lemmatissot.fig",
+		"/home/amuls/Documents/CURSUSSEN/SC021/MAPPROJ/map-local-properties.tex",
+		"/home/amuls/Nextcloud/Documents/OLD.CURSUSSEN/AS005/CARTOGRAPHY/cartomaster.nl.tex",
+		"/home/amuls/Documents/CURSUSSEN/SC021/MAPPROJ/map-global-properties.tex",
+		"/home/amuls/Documents/CURSUSSEN/SC021/MAPPROJ/slides-local-properties.markdown",
+		"/home/amuls/Documents/CURSUSSEN/SC021/MAPPROJ/map-introduction.tex",
+		"/home/amuls/Documents/CURSUSSEN/SC021/MAPPROJ/FIGS/tissot2.fig",
+		"/home/amuls/Documents/CURSUSSEN/SC021/MAPPROJ/FIGS/lineairevergroting.fig",
+		"/home/amuls/Documents/CURSUSSEN/SC021/SC021-EN-titlepage.md",
+		"/home/amuls/Documents/CURSUSSEN/SC021/GEODMODELS/FIGS/NEU.fig",
+		"/home/amuls/Documents/CURSUSSEN/SC021/Makefile.tex2pdf",
+		"/home/amuls/Documents/CURSUSSEN/SC021/ASbib.bib",
+		"/home/amuls/Documents/CURSUSSEN/SC021/GEODMODELS/FIGS/ECEF.fig",
+		"/home/amuls/Documents/CURSUSSEN/SC021/handouts/SC021-EN-04-GeodModels.pdf",
+		"/home/amuls/Documents/CURSUSSEN/SC021/MAPPROJ/FIGS/correspondentie.fig",
+		"/media/amuls/76E8-CACF/LOG/Navigation/navigation_2020-10-27_15-53-56.log",
+		"/home/amuls/Documents/CURSUSSEN/SC021/MAPPROJ/cartomaster.tex",
+		"/home/amuls/Nextcloud/Documents/OLD.CURSUSSEN/AS005/CARTOGRAPHY/conformeproj.nl.tex",
+		"/home/amuls/Nextcloud/Documents/OLD.CURSUSSEN/AS005/CARTOGRAPHY/marinecartomaster.nl.tex",
+		"/home/amuls/Documents/CURSUSSEN/SC021/handouts/SC021-EN-05-MapProj.pdf",
+		"/home/amuls/Documents/CURSUSSEN/SC021/sc021master.pdf",
+		"/home/amuls/Documents/CURSUSSEN/SC021/REFSYSTEMS/distances.tex",
+		"/home/amuls/Documents/CURSUSSEN/SC021/GNSS/gnss_master.tex",
+		"/home/amuls/scripts/xfig.sh",
+		"/home/amuls/scripts/xfig-wrapper.sh",
+		"/home/amuls/Documents/CURSUSSEN/SC021/APPENDIX/FFT-ACF-PSD-matlab.tex",
+		"/home/amuls/Documents/amnotes/notes/CISS/HoD/CISS2018/Dept Meeting 201802.md",
+		"/home/amuls/Documents/CURSUSSEN/SC021/sc021master.sublime-project",
+		"/home/amuls/Documents/CURSUSSEN/SC021/SC021SLIDES/rmastyle/beamerthemeRMA.sty",
+		"/home/amuls/Documents/CURSUSSEN/SC021/SC021SLIDES/beamerthemeRMA.sty",
+		"/home/amuls/Documents/CURSUSSEN/SC021/CARTOGRAPHY/map-introduction.tex",
+		"/home/amuls/Documents/CURSUSSEN/SC021/SC021-EN-02-Trigonometry.mdfiles",
+		"/home/amuls/Documents/CURSUSSEN/SC021/SC021-EN-01-Geodesy.mdfiles",
+		"/home/amuls/Documents/CURSUSSEN/SC021/MAPPROJ/map-introduction.markdown",
+		"/home/amuls/Documents/CURSUSSEN/SC021/MAPPROJ/test-mapprojections.markdown",
+		"/home/amuls/Documents/CURSUSSEN/SC021/MAPPROJ/coord-transformation.markdown",
+		"/home/amuls/Documents/CURSUSSEN/SC021/MAPPROJ/proj4.markdown",
+		"/home/amuls/Documents/CURSUSSEN/SC021/SC021-EN-05-MapProj.pdf",
+		"/home/amuls/Documents/CURSUSSEN/SC021/REFSYSTEMS/slides-celestial-navigation.markdown",
+		"/home/amuls/Documents/CURSUSSEN/SC021/BOLDRIEHOEK/slides-angular-units.markdown",
+		"/home/amuls/Documents/CURSUSSEN/SC021/SC021slides.md",
+		"/home/amuls/Documents/CURSUSSEN/SC021/amslides/beamerthemeCISS.sty",
+		"/tmp/pandoc-beamer-how-to/pandoc/templates/default_mod.latex",
+		"/tmp/test.tex",
+		"/home/amuls/Documents/CURSUSSEN/SC021/amslides/beamerthemeRMA.sty",
+		"/home/amuls/Documents/CURSUSSEN/SC021/amslides/beamertheme3PfD.sty",
+		"/home/amuls/.config/ammarkdown/templates/default.beamer",
+		"/home/amuls/Documents/CURSUSSEN/SC021/test.tex",
+		"/home/amuls/texmf/tex/latex/rmasty/rmapackage.sty",
+		"/home/amuls/texmf/tex/latex/rmasty/geometre.sty",
+		"/home/amuls/texmf/tex/latex/rmasty/1rmaciss.sty",
+		"/home/amuls/texmf/tex/latex/rmasty/cisstheme.sty",
+		"/home/amuls/texmf/tex/latex/rmasty/rmaslidesen.sty",
+		"/home/amuls/texmf/tex/latex/rmasty/rmaciss.sty",
+		"/home/amuls/texmf/tex/latex/rmasty/kmssoinc.sty",
+		"/home/amuls/texmf/tex/latex/rmasty/kmsTPpackage.sty",
+		"/home/amuls/texmf/tex/latex/rmasty/kmsletter.sty",
+		"/home/amuls/texmf/tex/latex/rmasty/rmacissen.sty",
+		"/home/amuls/texmf/tex/latex/rmasty/rmaslides.sty",
+		"/home/amuls/texmf/tex/latex/rmasty/hyphenationnl.sty",
+		"/home/amuls/texmf/tex/latex/rmasty/texcmds2.sty",
+		"/home/amuls/texmf/tex/latex/rmasty/texcmds.sty",
+		"/home/amuls/texmf/tex/latex/rmasty/texcmdsTP.sty",
+		"/home/amuls/.local/bin/columnfilter.py",
+		"/home/amuls/.config/sublime-merge/Packages/User/Preferences.sublime-settings",
+		"/home/amuls/Documents/CURSUSSEN/SC021/SC021-EN-03-Indicators.tex",
+		"/home/amuls/Documents/CURSUSSEN/SC021/SC021-EN-03-Indicators.pdf"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 136.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"URL GitHub",
+			"It is ",
+			"It is stated",
+			"nargs",
+			"(default=",
+			"default=",
+			"default=([",
+			"default",
+			"default=[",
+			"default",
+			"gfzc",
+			"lst_MARKER_TYPES",
+			"mtype",
+			"st_MARKER_TYPES",
+			"freqtypes",
+			"lst_MARKER_TYPES",
+			"markertypes",
+			"reqtype",
+			"ANT_NR",
+			"ANT_TYPE",
+			"RX_NR",
+			"RX_TYPE",
+			"join",
+			"dRnx['marker']",
+			"satsys",
+			"22584247",
+			"argsCONVBIN",
+			"ltx"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "HEADER.YAML",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								724,
+								724
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 14,
+								"count": 88,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_pdf-gen.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 993,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								783,
+								783
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 4,
+								"count": 60,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29136,
+								29136
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 22,
+								"count": 3553,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15316.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1391,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										177,
+										187
+									],
+									[
+										606,
+										616
+									],
+									[
+										1149,
+										1159
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								1158,
+								1158
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 3,
+								"count": 168,
+								"modified": false,
+								"selection": true,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1165,
+										1166
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"region.bluish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1148,
+										1149
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"default_dir": "/home/amuls/pandoc-for-pdf-how-to",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "NL: create course PDF",
+	"project": "pandoc2pdf.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"3",
+				"3PfD-kickoff.tex"
+			],
+			[
+				"ex",
+				"expenses.tex"
+			],
+			[
+				"page",
+				"preferences/page_reference_position.py"
+			],
+			[
+				"",
+				"pynmea2/types/talker.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 317.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

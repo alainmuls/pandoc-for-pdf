@@ -1,0 +1,42 @@
+---
+author: "A. MULS, O. DESENFANS, P. DE KIMPE, A. TSATURYAN"
+title: "Chirpsawtooth RFI Test  \\newline\\newline  P3RS2 Receiver"
+subtitle: "RINEX Observation Analysis"
+date: "\\textbf{\\today}"
+institute: "RMA -- CISS, M3Systems SPRL"
+subject: "Analysis of RINEX Observation File"
+keywords: ["PRS", "GALILEO", "EDA", "GEODE", "operational", "laboratory", "test"]
+lang: "en"
+header-center: "RINEX Observation"
+header-left: "3PfD"
+footer-center: "UNCLASSIFIED"
+footer-left: "Muls, Desenfans, De Kimpe, Tsaturyan"
+disable-header-and-footer: false
+toc: true
+toc-own-page: false
+lot: false
+lof: true
+tableleft: false
+table-use-row-colors: true
+float-placement-figure: H
+titlepage: true
+titlepage-text-color: "0000A0"
+titlepage-rule-color: "0000A0"
+titlepage-rule-height: 2
+logo: "./logo/3PfD-logo-obs.eps"
+logo-width: 134
+header-includes:
+    \usepackage{pdflscape}
+    \usepackage{paralist}
+    \usepackage{graphicx}
+    \usepackage{array}
+    \usepackage{xcolor}
+    \usepackage{colortbl}
+    \usepackage{longtable}
+    \usepackage{tabu}
+    \usepackage{varioref}
+    \usepackage{booktabs}
+    \usepackage{float}
+...
+
+

@@ -1,0 +1,684 @@
+\subsection{Detailed analysis of observation types per navigation signal for GPS NavSTAR}%
+\label{subsec:DetailedanalysisofobservationtypespernavigationsignalforGPSNavSTAR}%
+\setlength{\tabcolsep}{4pt}%
+\begin{longtabu}[c]{rcl}%
+Observation tabular file&:&SEPT00BEL\_R\_20203491400\_30M\_01S\_MO\_G.obstab\\%
+Examined satellites&:&G05, G08, G10, G11, G13, G14, G15, G17, G18, G19\\%
+&&G20, G23, G24, G28, G30\\%
+Examined navigation signals&:&1C\\%
+Examined observables&:&S1C\\%
+\end{longtabu}%
+\subsubsection{TLE time spans}%
+\label{ssubsec:TLEtimespans}%
+The table below represents the calculated rise and set times within the observation time span for a PRN based on the TLEs. When a culmination is within this interval, it is represented in the table.%
+\setlength{\tabcolsep}{4pt}%
+\begin{longtabu}[c]{l|l|l|l|c}%
+\hline%
+\textbf{PRN}&\textbf{tle\_rise}&\textbf{tle\_set}&\textbf{tle\_cul}&\textbf{tle\_arc\_count}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+G05&14:00:00&14:30:00&&1800.0\\%
+G08&14:00:00&14:27:17&&1637.0\\%
+G13&14:00:00&14:30:00&&1800.0\\%
+G14&&&&\\%
+G15&14:00:00&14:30:00&&1800.0\\%
+G18&&&&\\%
+G20&14:00:00&14:30:00&&1800.0\\%
+G23&14:00:00&14:30:00&&1800.0\\%
+G24&14:00:00&14:30:00&&1800.0\\%
+G28&14:00:00&14:30:00&&1800.0\\%
+G30&14:00:00&14:30:00&&1800.0\\%
+G17&14:00:00&14:30:00&&1800.0\\%
+G11&14:09:05&14:30:00&&1255.0\\%
+G10&14:08:05&14:30:00&&1315.0\\%
+G19&14:16:24&14:30:00&&816.0\\%
+\hline%
+\end{longtabu}
+
+%
+\subsubsection{Navigation signals analysis for GPS NavSTAR}%
+\label{ssubsec:NavigationsignalsanalysisforGPSNavSTAR}%
+\newpage%
+\paragraph{Analysis of navigation signal G1C}%
+\label{para:AnalysisofnavigationsignalG1C}%
+\newpage%
+\begin{enumerate}%
+\item%
+Figure \ref{fig:tle_navsig_1CG} represents the observed time span for navigation signal G1C set out against the maximum time span calculated from the  Two Line Elements (TLE). If present, the culmination point for a satellite is represented by a triangle. The time span from TLEs is represented by the lighter area while the real observations are represented by the dark super-imposed areas.%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\textwidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-G1C-TLE-arcs.png}%
+\caption{\label{fig:tle_navsig_1CG} Navigation signal G1C versus TLE time span}%
+\end{figure}
+
+%
+\item%
+Figure \ref{fig:tle_navsig_GS1C} displays the evolution of observation type S1C. \newline The upper plot represents the variation of the observation type while the middle plot (if available) displays the variation of this observable between 2 consecutive epochs. The bottom plot displays the TLE time spans for the satellies.%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\textwidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-G1C-S1C.png}%
+\caption{\label{fig:tle_navsig_GS1C} Navigation signal S1C evolution}%
+\end{figure}
+
+%
+The table below reports the loss and reacquisition of PNT for observable S1C.%
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:16:43&Loss&PNT&2.0&2020{-}12{-}14 14:16:45\\%
+2020{-}12{-}14 14:16:49&Loss&PNT&2.0&2020{-}12{-}14 14:16:51\\%
+2020{-}12{-}14 14:16:52&Loss&PNT&2.0&2020{-}12{-}14 14:16:54\\%
+2020{-}12{-}14 14:16:55&Loss&PNT&5.0&2020{-}12{-}14 14:17:00\\%
+2020{-}12{-}14 14:17:02&Loss&PNT&267.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+\item%
+Analysis of navigation signal G1C for each observed satellite.\newline%
+ewline The following plots display the same information as described above per satellite. Each plot is accompanied by a table displaying the time of loss of lock and reacquisition of the satellite when such events are detected.%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-S1C-G05.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:15:14&Loss&G05&2.0&2020{-}12{-}14 14:15:16\\%
+2020{-}12{-}14 14:15:23&Loss&G05&2.0&2020{-}12{-}14 14:15:25\\%
+2020{-}12{-}14 14:15:26&Loss&G05&2.0&2020{-}12{-}14 14:15:28\\%
+2020{-}12{-}14 14:15:30&Loss&G05&2.0&2020{-}12{-}14 14:15:32\\%
+2020{-}12{-}14 14:15:33&Loss&G05&3.0&2020{-}12{-}14 14:15:36\\%
+2020{-}12{-}14 14:15:36&Loss&G05&2.0&2020{-}12{-}14 14:15:38\\%
+2020{-}12{-}14 14:16:13&Loss&G05&3.0&2020{-}12{-}14 14:16:16\\%
+2020{-}12{-}14 14:16:25&Loss&G05&7.0&2020{-}12{-}14 14:16:32\\%
+2020{-}12{-}14 14:16:32&Loss&G05&297.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-S1C-G08.png}%
+\end{figure}
+
+%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-S1C-G10.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:22:15&Loss&G10&59.0&2020{-}12{-}14 14:23:14\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-S1C-G11.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:14:54&Loss&G11&2.0&2020{-}12{-}14 14:14:56\\%
+2020{-}12{-}14 14:14:57&Loss&G11&2.0&2020{-}12{-}14 14:14:59\\%
+2020{-}12{-}14 14:15:06&Loss&G11&2.0&2020{-}12{-}14 14:15:08\\%
+2020{-}12{-}14 14:15:16&Loss&G11&3.0&2020{-}12{-}14 14:15:19\\%
+2020{-}12{-}14 14:15:19&Loss&G11&2.0&2020{-}12{-}14 14:15:21\\%
+2020{-}12{-}14 14:15:34&Loss&G11&3.0&2020{-}12{-}14 14:15:37\\%
+2020{-}12{-}14 14:15:37&Loss&G11&2.0&2020{-}12{-}14 14:15:39\\%
+2020{-}12{-}14 14:15:39&Loss&G11&3.0&2020{-}12{-}14 14:15:42\\%
+2020{-}12{-}14 14:15:42&Loss&G11&7.0&2020{-}12{-}14 14:15:49\\%
+2020{-}12{-}14 14:15:51&Loss&G11&350.0&2020{-}12{-}14 14:21:41\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-S1C-G13.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:15:35&Loss&G13&2.0&2020{-}12{-}14 14:15:37\\%
+2020{-}12{-}14 14:15:37&Loss&G13&3.0&2020{-}12{-}14 14:15:40\\%
+2020{-}12{-}14 14:16:23&Loss&G13&3.0&2020{-}12{-}14 14:16:26\\%
+2020{-}12{-}14 14:16:43&Loss&G13&2.0&2020{-}12{-}14 14:16:45\\%
+2020{-}12{-}14 14:17:02&Loss&G13&267.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-S1C-G14.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:16:13&Loss&G14&4.0&2020{-}12{-}14 14:16:17\\%
+2020{-}12{-}14 14:16:34&Loss&G14&2.0&2020{-}12{-}14 14:16:36\\%
+2020{-}12{-}14 14:17:13&Loss&G14&2.0&2020{-}12{-}14 14:17:15\\%
+2020{-}12{-}14 14:17:15&Loss&G14&254.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-S1C-G15.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:15:26&Loss&G15&2.0&2020{-}12{-}14 14:15:28\\%
+2020{-}12{-}14 14:15:38&Loss&G15&2.0&2020{-}12{-}14 14:15:40\\%
+2020{-}12{-}14 14:15:42&Loss&G15&2.0&2020{-}12{-}14 14:15:44\\%
+2020{-}12{-}14 14:16:52&Loss&G15&8.0&2020{-}12{-}14 14:17:00\\%
+2020{-}12{-}14 14:17:05&Loss&G15&264.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-S1C-G17.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:14:32&Loss&G17&2.0&2020{-}12{-}14 14:14:34\\%
+2020{-}12{-}14 14:14:49&Loss&G17&2.0&2020{-}12{-}14 14:14:51\\%
+2020{-}12{-}14 14:14:54&Loss&G17&2.0&2020{-}12{-}14 14:14:56\\%
+2020{-}12{-}14 14:16:01&Loss&G17&12.0&2020{-}12{-}14 14:16:13\\%
+2020{-}12{-}14 14:16:15&Loss&G17&6.0&2020{-}12{-}14 14:16:21\\%
+2020{-}12{-}14 14:16:24&Loss&G17&5.0&2020{-}12{-}14 14:16:29\\%
+2020{-}12{-}14 14:16:30&Loss&G17&24.0&2020{-}12{-}14 14:16:54\\%
+2020{-}12{-}14 14:16:54&Loss&G17&275.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-S1C-G18.png}%
+\end{figure}
+
+%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-S1C-G19.png}%
+\end{figure}
+
+%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-S1C-G20.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:15:14&Loss&G20&2.0&2020{-}12{-}14 14:15:16\\%
+2020{-}12{-}14 14:15:29&Loss&G20&2.0&2020{-}12{-}14 14:15:31\\%
+2020{-}12{-}14 14:16:23&Loss&G20&2.0&2020{-}12{-}14 14:16:25\\%
+2020{-}12{-}14 14:16:28&Loss&G20&3.0&2020{-}12{-}14 14:16:31\\%
+2020{-}12{-}14 14:16:31&Loss&G20&4.0&2020{-}12{-}14 14:16:35\\%
+2020{-}12{-}14 14:16:35&Loss&G20&20.0&2020{-}12{-}14 14:16:55\\%
+2020{-}12{-}14 14:16:55&Loss&G20&274.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-S1C-G23.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:15:15&Loss&G23&2.0&2020{-}12{-}14 14:15:17\\%
+2020{-}12{-}14 14:15:17&Loss&G23&2.0&2020{-}12{-}14 14:15:19\\%
+2020{-}12{-}14 14:15:19&Loss&G23&2.0&2020{-}12{-}14 14:15:21\\%
+2020{-}12{-}14 14:15:21&Loss&G23&2.0&2020{-}12{-}14 14:15:23\\%
+2020{-}12{-}14 14:15:24&Loss&G23&2.0&2020{-}12{-}14 14:15:26\\%
+2020{-}12{-}14 14:15:26&Loss&G23&2.0&2020{-}12{-}14 14:15:28\\%
+2020{-}12{-}14 14:16:20&Loss&G23&2.0&2020{-}12{-}14 14:16:22\\%
+2020{-}12{-}14 14:16:25&Loss&G23&304.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-S1C-G24.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:14:49&Loss&G24&2.0&2020{-}12{-}14 14:14:51\\%
+2020{-}12{-}14 14:15:01&Loss&G24&2.0&2020{-}12{-}14 14:15:03\\%
+2020{-}12{-}14 14:15:36&Loss&G24&2.0&2020{-}12{-}14 14:15:38\\%
+2020{-}12{-}14 14:16:19&Loss&G24&2.0&2020{-}12{-}14 14:16:21\\%
+2020{-}12{-}14 14:16:42&Loss&G24&287.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-S1C-G28.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:15:59&Loss&G28&2.0&2020{-}12{-}14 14:16:01\\%
+2020{-}12{-}14 14:16:49&Loss&G28&2.0&2020{-}12{-}14 14:16:51\\%
+2020{-}12{-}14 14:17:13&Loss&G28&3.0&2020{-}12{-}14 14:17:16\\%
+2020{-}12{-}14 14:17:19&Loss&G28&250.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_G-S1C-G30.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:14:54&Loss&G30&2.0&2020{-}12{-}14 14:14:56\\%
+2020{-}12{-}14 14:15:20&Loss&G30&2.0&2020{-}12{-}14 14:15:22\\%
+2020{-}12{-}14 14:15:24&Loss&G30&3.0&2020{-}12{-}14 14:15:27\\%
+2020{-}12{-}14 14:15:28&Loss&G30&3.0&2020{-}12{-}14 14:15:31\\%
+2020{-}12{-}14 14:15:33&Loss&G30&3.0&2020{-}12{-}14 14:15:36\\%
+2020{-}12{-}14 14:15:44&Loss&G30&2.0&2020{-}12{-}14 14:15:46\\%
+2020{-}12{-}14 14:16:00&Loss&G30&2.0&2020{-}12{-}14 14:16:02\\%
+2020{-}12{-}14 14:16:03&Loss&G30&2.0&2020{-}12{-}14 14:16:05\\%
+2020{-}12{-}14 14:16:18&Loss&G30&2.0&2020{-}12{-}14 14:16:20\\%
+2020{-}12{-}14 14:16:23&Loss&G30&2.0&2020{-}12{-}14 14:16:25\\%
+2020{-}12{-}14 14:16:25&Loss&G30&9.0&2020{-}12{-}14 14:16:34\\%
+2020{-}12{-}14 14:16:34&Loss&G30&2.0&2020{-}12{-}14 14:16:36\\%
+2020{-}12{-}14 14:16:36&Loss&G30&3.0&2020{-}12{-}14 14:16:39\\%
+2020{-}12{-}14 14:16:39&Loss&G30&2.0&2020{-}12{-}14 14:16:41\\%
+2020{-}12{-}14 14:16:43&Loss&G30&286.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+\item%
+Chronological overview of detected events for navigation signal G1C%
+\begin{longtabu}{cccc}%
+\hline%
+\multicolumn{4}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{4}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:14:32&Loss&G17&2.0\\%
+2020{-}12{-}14 14:14:34&Reacquisition&G17&nan\\%
+2020{-}12{-}14 14:14:49&Loss&G17&2.0\\%
+2020{-}12{-}14 14:14:49&Loss&G24&2.0\\%
+2020{-}12{-}14 14:14:51&Reacquisition&G17&nan\\%
+2020{-}12{-}14 14:14:51&Reacquisition&G24&nan\\%
+2020{-}12{-}14 14:14:54&Loss&G30&2.0\\%
+2020{-}12{-}14 14:14:54&Loss&G17&2.0\\%
+2020{-}12{-}14 14:14:54&Loss&G11&2.0\\%
+2020{-}12{-}14 14:14:56&Reacquisition&G17&nan\\%
+2020{-}12{-}14 14:14:56&Reacquisition&G11&nan\\%
+2020{-}12{-}14 14:14:56&Reacquisition&G30&nan\\%
+2020{-}12{-}14 14:14:57&Loss&G11&2.0\\%
+2020{-}12{-}14 14:14:59&Reacquisition&G11&nan\\%
+2020{-}12{-}14 14:15:01&Loss&G24&2.0\\%
+2020{-}12{-}14 14:15:03&Reacquisition&G24&nan\\%
+2020{-}12{-}14 14:15:06&Loss&G11&2.0\\%
+2020{-}12{-}14 14:15:08&Reacquisition&G11&nan\\%
+2020{-}12{-}14 14:15:14&Loss&G20&2.0\\%
+2020{-}12{-}14 14:15:14&Loss&G05&2.0\\%
+2020{-}12{-}14 14:15:15&Loss&G23&2.0\\%
+2020{-}12{-}14 14:15:16&Reacquisition&G05&nan\\%
+2020{-}12{-}14 14:15:16&Reacquisition&G20&nan\\%
+2020{-}12{-}14 14:15:16&Loss&G11&3.0\\%
+2020{-}12{-}14 14:15:17&Loss&G23&2.0\\%
+2020{-}12{-}14 14:15:17&Reacquisition&G23&nan\\%
+2020{-}12{-}14 14:15:19&Reacquisition&G11&nan\\%
+2020{-}12{-}14 14:15:19&Loss&G23&2.0\\%
+2020{-}12{-}14 14:15:19&Reacquisition&G23&nan\\%
+2020{-}12{-}14 14:15:19&Loss&G11&2.0\\%
+2020{-}12{-}14 14:15:20&Loss&G30&2.0\\%
+2020{-}12{-}14 14:15:21&Loss&G23&2.0\\%
+2020{-}12{-}14 14:15:21&Reacquisition&G11&nan\\%
+2020{-}12{-}14 14:15:21&Reacquisition&G23&nan\\%
+2020{-}12{-}14 14:15:22&Reacquisition&G30&nan\\%
+2020{-}12{-}14 14:15:23&Reacquisition&G23&nan\\%
+2020{-}12{-}14 14:15:23&Loss&G05&2.0\\%
+2020{-}12{-}14 14:15:24&Loss&G23&2.0\\%
+2020{-}12{-}14 14:15:24&Loss&G30&3.0\\%
+2020{-}12{-}14 14:15:25&Reacquisition&G05&nan\\%
+2020{-}12{-}14 14:15:26&Loss&G05&2.0\\%
+2020{-}12{-}14 14:15:26&Loss&G23&2.0\\%
+2020{-}12{-}14 14:15:26&Loss&G15&2.0\\%
+2020{-}12{-}14 14:15:26&Reacquisition&G23&nan\\%
+2020{-}12{-}14 14:15:27&Reacquisition&G30&nan\\%
+2020{-}12{-}14 14:15:28&Reacquisition&G15&nan\\%
+2020{-}12{-}14 14:15:28&Loss&G30&3.0\\%
+2020{-}12{-}14 14:15:28&Reacquisition&G23&nan\\%
+2020{-}12{-}14 14:15:28&Reacquisition&G05&nan\\%
+2020{-}12{-}14 14:15:29&Loss&G20&2.0\\%
+2020{-}12{-}14 14:15:30&Loss&G05&2.0\\%
+2020{-}12{-}14 14:15:31&Reacquisition&G20&nan\\%
+2020{-}12{-}14 14:15:31&Reacquisition&G30&nan\\%
+2020{-}12{-}14 14:15:32&Reacquisition&G05&nan\\%
+2020{-}12{-}14 14:15:33&Loss&G05&3.0\\%
+2020{-}12{-}14 14:15:33&Loss&G30&3.0\\%
+2020{-}12{-}14 14:15:34&Loss&G11&3.0\\%
+2020{-}12{-}14 14:15:35&Loss&G13&2.0\\%
+2020{-}12{-}14 14:15:36&Reacquisition&G05&nan\\%
+2020{-}12{-}14 14:15:36&Loss&G24&2.0\\%
+2020{-}12{-}14 14:15:36&Reacquisition&G30&nan\\%
+2020{-}12{-}14 14:15:36&Loss&G05&2.0\\%
+2020{-}12{-}14 14:15:37&Loss&G11&2.0\\%
+2020{-}12{-}14 14:15:37&Reacquisition&G13&nan\\%
+2020{-}12{-}14 14:15:37&Loss&G13&3.0\\%
+2020{-}12{-}14 14:15:37&Reacquisition&G11&nan\\%
+2020{-}12{-}14 14:15:38&Reacquisition&G05&nan\\%
+2020{-}12{-}14 14:15:38&Reacquisition&G24&nan\\%
+2020{-}12{-}14 14:15:38&Loss&G15&2.0\\%
+2020{-}12{-}14 14:15:39&Loss&G11&3.0\\%
+2020{-}12{-}14 14:15:39&Reacquisition&G11&nan\\%
+2020{-}12{-}14 14:15:40&Reacquisition&G13&nan\\%
+2020{-}12{-}14 14:15:40&Reacquisition&G15&nan\\%
+2020{-}12{-}14 14:15:42&Loss&G15&2.0\\%
+2020{-}12{-}14 14:15:42&Reacquisition&G11&nan\\%
+2020{-}12{-}14 14:15:42&Loss&G11&7.0\\%
+2020{-}12{-}14 14:15:44&Loss&G30&2.0\\%
+2020{-}12{-}14 14:15:44&Reacquisition&G15&nan\\%
+2020{-}12{-}14 14:15:46&Reacquisition&G30&nan\\%
+2020{-}12{-}14 14:15:49&Reacquisition&G11&nan\\%
+2020{-}12{-}14 14:15:51&Loss&G11&350.0\\%
+2020{-}12{-}14 14:15:59&Loss&G28&2.0\\%
+2020{-}12{-}14 14:16:00&Loss&G30&2.0\\%
+2020{-}12{-}14 14:16:01&Loss&G17&12.0\\%
+2020{-}12{-}14 14:16:01&Reacquisition&G28&nan\\%
+2020{-}12{-}14 14:16:02&Reacquisition&G30&nan\\%
+2020{-}12{-}14 14:16:03&Loss&G30&2.0\\%
+2020{-}12{-}14 14:16:05&Reacquisition&G30&nan\\%
+2020{-}12{-}14 14:16:13&Reacquisition&G17&nan\\%
+2020{-}12{-}14 14:16:13&Loss&G14&4.0\\%
+2020{-}12{-}14 14:16:13&Loss&G05&3.0\\%
+2020{-}12{-}14 14:16:15&Loss&G17&6.0\\%
+2020{-}12{-}14 14:16:16&Reacquisition&G05&nan\\%
+2020{-}12{-}14 14:16:17&Reacquisition&G14&nan\\%
+2020{-}12{-}14 14:16:18&Loss&G30&2.0\\%
+2020{-}12{-}14 14:16:19&Loss&G24&2.0\\%
+2020{-}12{-}14 14:16:20&Reacquisition&G30&nan\\%
+2020{-}12{-}14 14:16:20&Loss&G23&2.0\\%
+2020{-}12{-}14 14:16:21&Reacquisition&G24&nan\\%
+2020{-}12{-}14 14:16:21&Reacquisition&G17&nan\\%
+2020{-}12{-}14 14:16:22&Reacquisition&G23&nan\\%
+2020{-}12{-}14 14:16:23&Loss&G20&2.0\\%
+2020{-}12{-}14 14:16:23&Loss&G30&2.0\\%
+2020{-}12{-}14 14:16:23&Loss&G13&3.0\\%
+2020{-}12{-}14 14:16:24&Loss&G17&5.0\\%
+2020{-}12{-}14 14:16:25&Loss&G23&304.0\\%
+2020{-}12{-}14 14:16:25&Loss&G05&7.0\\%
+2020{-}12{-}14 14:16:25&Reacquisition&G30&nan\\%
+2020{-}12{-}14 14:16:25&Reacquisition&G20&nan\\%
+2020{-}12{-}14 14:16:25&Loss&G30&9.0\\%
+2020{-}12{-}14 14:16:26&Reacquisition&G13&nan\\%
+2020{-}12{-}14 14:16:28&Loss&G20&3.0\\%
+2020{-}12{-}14 14:16:29&Reacquisition&G17&nan\\%
+2020{-}12{-}14 14:16:30&Loss&G17&24.0\\%
+2020{-}12{-}14 14:16:31&Reacquisition&G20&nan\\%
+2020{-}12{-}14 14:16:31&Loss&G20&4.0\\%
+2020{-}12{-}14 14:16:32&Loss&G05&297.0\\%
+2020{-}12{-}14 14:16:32&Reacquisition&G05&nan\\%
+2020{-}12{-}14 14:16:34&Loss&G30&2.0\\%
+2020{-}12{-}14 14:16:34&Reacquisition&G30&nan\\%
+2020{-}12{-}14 14:16:34&Loss&G14&2.0\\%
+2020{-}12{-}14 14:16:35&Reacquisition&G20&nan\\%
+2020{-}12{-}14 14:16:35&Loss&G20&20.0\\%
+2020{-}12{-}14 14:16:36&Reacquisition&G14&nan\\%
+2020{-}12{-}14 14:16:36&Loss&G30&3.0\\%
+2020{-}12{-}14 14:16:36&Reacquisition&G30&nan\\%
+2020{-}12{-}14 14:16:39&Reacquisition&G30&nan\\%
+2020{-}12{-}14 14:16:39&Loss&G30&2.0\\%
+2020{-}12{-}14 14:16:41&Reacquisition&G30&nan\\%
+2020{-}12{-}14 14:16:42&Loss&G24&287.0\\%
+2020{-}12{-}14 14:16:43&Loss&PNT&2.0\\%
+2020{-}12{-}14 14:16:43&Loss&G13&2.0\\%
+2020{-}12{-}14 14:16:43&Loss&G30&286.0\\%
+2020{-}12{-}14 14:16:45&Reacquisition&G13&nan\\%
+2020{-}12{-}14 14:16:45&Reacquisition&PNT&nan\\%
+2020{-}12{-}14 14:16:49&Loss&G28&2.0\\%
+2020{-}12{-}14 14:16:49&Loss&PNT&2.0\\%
+2020{-}12{-}14 14:16:51&Reacquisition&PNT&nan\\%
+2020{-}12{-}14 14:16:51&Reacquisition&G28&nan\\%
+2020{-}12{-}14 14:16:52&Loss&PNT&2.0\\%
+2020{-}12{-}14 14:16:52&Loss&G15&8.0\\%
+2020{-}12{-}14 14:16:54&Loss&G17&275.0\\%
+2020{-}12{-}14 14:16:54&Reacquisition&PNT&nan\\%
+2020{-}12{-}14 14:16:54&Reacquisition&G17&nan\\%
+2020{-}12{-}14 14:16:55&Loss&PNT&5.0\\%
+2020{-}12{-}14 14:16:55&Reacquisition&G20&nan\\%
+2020{-}12{-}14 14:16:55&Loss&G20&274.0\\%
+2020{-}12{-}14 14:17:00&Reacquisition&PNT&nan\\%
+2020{-}12{-}14 14:17:00&Reacquisition&G15&nan\\%
+2020{-}12{-}14 14:17:02&Loss&PNT&267.0\\%
+2020{-}12{-}14 14:17:02&Loss&G13&267.0\\%
+2020{-}12{-}14 14:17:05&Loss&G15&264.0\\%
+2020{-}12{-}14 14:17:13&Loss&G28&3.0\\%
+2020{-}12{-}14 14:17:13&Loss&G14&2.0\\%
+2020{-}12{-}14 14:17:15&Reacquisition&G14&nan\\%
+2020{-}12{-}14 14:17:15&Loss&G14&254.0\\%
+2020{-}12{-}14 14:17:16&Reacquisition&G28&nan\\%
+2020{-}12{-}14 14:17:19&Loss&G28&250.0\\%
+2020{-}12{-}14 14:21:29&Reacquisition&G14&nan\\%
+2020{-}12{-}14 14:21:29&Reacquisition&G15&nan\\%
+2020{-}12{-}14 14:21:29&Reacquisition&G13&nan\\%
+2020{-}12{-}14 14:21:29&Reacquisition&G17&nan\\%
+2020{-}12{-}14 14:21:29&Reacquisition&G05&nan\\%
+2020{-}12{-}14 14:21:29&Reacquisition&PNT&nan\\%
+2020{-}12{-}14 14:21:29&Reacquisition&G20&nan\\%
+2020{-}12{-}14 14:21:29&Reacquisition&G23&nan\\%
+2020{-}12{-}14 14:21:29&Reacquisition&G24&nan\\%
+2020{-}12{-}14 14:21:29&Reacquisition&G28&nan\\%
+2020{-}12{-}14 14:21:29&Reacquisition&G30&nan\\%
+2020{-}12{-}14 14:21:41&Reacquisition&G11&nan\\%
+2020{-}12{-}14 14:22:15&Loss&G10&59.0\\%
+2020{-}12{-}14 14:23:14&Reacquisition&G10&nan\\%
+\hline%
+\end{longtabu}%
+\end{enumerate}
+

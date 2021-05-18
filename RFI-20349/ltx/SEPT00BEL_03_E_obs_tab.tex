@@ -1,0 +1,413 @@
+\subsection{Detailed analysis of observation types per navigation signal for Galileo}%
+\label{subsec:DetailedanalysisofobservationtypespernavigationsignalforGalileo}%
+\setlength{\tabcolsep}{4pt}%
+\begin{longtabu}[c]{rcl}%
+Observation tabular file&:&SEPT00BEL\_R\_20203491400\_30M\_01S\_MO\_E.obstab\\%
+Examined satellites&:&E02, E03, E05, E07, E08, E24, E25, E26, E33\\%
+Examined navigation signals&:&1C\\%
+Examined observables&:&S1C\\%
+\end{longtabu}%
+\subsubsection{TLE time spans}%
+\label{ssubsec:TLEtimespans}%
+The table below represents the calculated rise and set times within the observation time span for a PRN based on the TLEs. When a culmination is within this interval, it is represented in the table.%
+\setlength{\tabcolsep}{4pt}%
+\begin{longtabu}[c]{l|l|l|l|c}%
+\hline%
+\textbf{PRN}&\textbf{tle\_rise}&\textbf{tle\_set}&\textbf{tle\_cul}&\textbf{tle\_arc\_count}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+E02&14:00:00&14:30:00&&1800.0\\%
+E03&14:00:00&14:30:00&&1800.0\\%
+E05&14:00:00&14:30:00&&1800.0\\%
+E08&14:00:00&14:30:00&&1800.0\\%
+E24&14:00:00&14:30:00&&1800.0\\%
+E25&14:00:00&14:30:00&14:17:38&1800.0\\%
+E26&14:00:00&14:30:00&&1800.0\\%
+E07&14:18:50&14:30:00&&670.0\\%
+E33&14:00:00&14:30:00&&1800.0\\%
+\hline%
+\end{longtabu}
+
+%
+\subsubsection{Navigation signals analysis for Galileo}%
+\label{ssubsec:NavigationsignalsanalysisforGalileo}%
+\newpage%
+\paragraph{Analysis of navigation signal E1C}%
+\label{para:AnalysisofnavigationsignalE1C}%
+\newpage%
+\begin{enumerate}%
+\item%
+Figure \ref{fig:tle_navsig_1CE} represents the observed time span for navigation signal E1C set out against the maximum time span calculated from the  Two Line Elements (TLE). If present, the culmination point for a satellite is represented by a triangle. The time span from TLEs is represented by the lighter area while the real observations are represented by the dark super-imposed areas.%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\textwidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_E-E1C-TLE-arcs.png}%
+\caption{\label{fig:tle_navsig_1CE} Navigation signal E1C versus TLE time span}%
+\end{figure}
+
+%
+\item%
+Figure \ref{fig:tle_navsig_ES1C} displays the evolution of observation type S1C. \newline The upper plot represents the variation of the observation type while the middle plot (if available) displays the variation of this observable between 2 consecutive epochs. The bottom plot displays the TLE time spans for the satellies.%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\textwidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_E-E1C-S1C.png}%
+\caption{\label{fig:tle_navsig_ES1C} Navigation signal S1C evolution}%
+\end{figure}
+
+%
+The table below reports the loss and reacquisition of PNT for observable S1C.%
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:16:28&Loss&PNT&2.0&2020{-}12{-}14 14:16:30\\%
+2020{-}12{-}14 14:16:32&Loss&PNT&3.0&2020{-}12{-}14 14:16:35\\%
+2020{-}12{-}14 14:16:39&Loss&PNT&12.0&2020{-}12{-}14 14:16:51\\%
+2020{-}12{-}14 14:16:52&Loss&PNT&277.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+\item%
+Analysis of navigation signal E1C for each observed satellite.\newline%
+ewline The following plots display the same information as described above per satellite. Each plot is accompanied by a table displaying the time of loss of lock and reacquisition of the satellite when such events are detected.%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_E-S1C-E02.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:15:27&Loss&E02&2.0&2020{-}12{-}14 14:15:29\\%
+2020{-}12{-}14 14:15:29&Loss&E02&2.0&2020{-}12{-}14 14:15:31\\%
+2020{-}12{-}14 14:15:32&Loss&E02&3.0&2020{-}12{-}14 14:15:35\\%
+2020{-}12{-}14 14:15:39&Loss&E02&3.0&2020{-}12{-}14 14:15:42\\%
+2020{-}12{-}14 14:15:47&Loss&E02&3.0&2020{-}12{-}14 14:15:50\\%
+2020{-}12{-}14 14:16:28&Loss&E02&2.0&2020{-}12{-}14 14:16:30\\%
+2020{-}12{-}14 14:16:32&Loss&E02&3.0&2020{-}12{-}14 14:16:35\\%
+2020{-}12{-}14 14:16:39&Loss&E02&12.0&2020{-}12{-}14 14:16:51\\%
+2020{-}12{-}14 14:16:52&Loss&E02&277.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_E-S1C-E03.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:15:52&Loss&E03&2.0&2020{-}12{-}14 14:15:54\\%
+2020{-}12{-}14 14:15:55&Loss&E03&2.0&2020{-}12{-}14 14:15:57\\%
+2020{-}12{-}14 14:16:04&Loss&E03&2.0&2020{-}12{-}14 14:16:06\\%
+2020{-}12{-}14 14:16:06&Loss&E03&2.0&2020{-}12{-}14 14:16:08\\%
+2020{-}12{-}14 14:16:55&Loss&E03&274.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_E-S1C-E05.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:14:46&Loss&E05&2.0&2020{-}12{-}14 14:14:48\\%
+2020{-}12{-}14 14:15:01&Loss&E05&2.0&2020{-}12{-}14 14:15:03\\%
+2020{-}12{-}14 14:15:14&Loss&E05&3.0&2020{-}12{-}14 14:15:17\\%
+2020{-}12{-}14 14:15:20&Loss&E05&3.0&2020{-}12{-}14 14:15:23\\%
+2020{-}12{-}14 14:16:12&Loss&E05&3.0&2020{-}12{-}14 14:16:15\\%
+2020{-}12{-}14 14:16:22&Loss&E05&2.0&2020{-}12{-}14 14:16:24\\%
+2020{-}12{-}14 14:16:25&Loss&E05&5.0&2020{-}12{-}14 14:16:30\\%
+2020{-}12{-}14 14:16:32&Loss&E05&298.0&2020{-}12{-}14 14:21:30\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_E-S1C-E07.png}%
+\end{figure}
+
+%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_E-S1C-E08.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:15:38&Loss&E08&2.0&2020{-}12{-}14 14:15:40\\%
+2020{-}12{-}14 14:15:57&Loss&E08&2.0&2020{-}12{-}14 14:15:59\\%
+2020{-}12{-}14 14:16:06&Loss&E08&4.0&2020{-}12{-}14 14:16:10\\%
+2020{-}12{-}14 14:16:15&Loss&E08&2.0&2020{-}12{-}14 14:16:17\\%
+2020{-}12{-}14 14:16:56&Loss&E08&5.0&2020{-}12{-}14 14:17:01\\%
+2020{-}12{-}14 14:17:01&Loss&E08&268.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_E-S1C-E24.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:14:55&Loss&E24&2.0&2020{-}12{-}14 14:14:57\\%
+2020{-}12{-}14 14:15:10&Loss&E24&2.0&2020{-}12{-}14 14:15:12\\%
+2020{-}12{-}14 14:15:22&Loss&E24&2.0&2020{-}12{-}14 14:15:24\\%
+2020{-}12{-}14 14:15:24&Loss&E24&2.0&2020{-}12{-}14 14:15:26\\%
+2020{-}12{-}14 14:15:27&Loss&E24&2.0&2020{-}12{-}14 14:15:29\\%
+2020{-}12{-}14 14:15:29&Loss&E24&2.0&2020{-}12{-}14 14:15:31\\%
+2020{-}12{-}14 14:16:25&Loss&E24&304.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_E-S1C-E25.png}%
+\end{figure}
+
+%
+\begin{longtabu}{ccccc}%
+\hline%
+\multicolumn{5}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}&\textbf{reacq}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{5}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:15:37&Loss&E25&2.0&2020{-}12{-}14 14:15:39\\%
+2020{-}12{-}14 14:15:47&Loss&E25&2.0&2020{-}12{-}14 14:15:49\\%
+2020{-}12{-}14 14:15:56&Loss&E25&2.0&2020{-}12{-}14 14:15:58\\%
+2020{-}12{-}14 14:16:01&Loss&E25&2.0&2020{-}12{-}14 14:16:03\\%
+2020{-}12{-}14 14:16:03&Loss&E25&2.0&2020{-}12{-}14 14:16:05\\%
+2020{-}12{-}14 14:16:45&Loss&E25&2.0&2020{-}12{-}14 14:16:47\\%
+2020{-}12{-}14 14:16:54&Loss&E25&275.0&2020{-}12{-}14 14:21:29\\%
+\hline%
+\end{longtabu}%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_E-S1C-E26.png}%
+\end{figure}
+
+%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\linewidth]{png/SEPT00BEL_R_20203491400_30M_01S_MO_E-S1C-E33.png}%
+\end{figure}
+
+%
+\item%
+Chronological overview of detected events for navigation signal E1C%
+\begin{longtabu}{cccc}%
+\hline%
+\multicolumn{4}{c}{\textcolor{blue}{%
+Navigation signal 1C%
+}}\\%
+\textbf{DATE\_TIME}&\textbf{event}&\textbf{type}&\textbf{duration}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{4}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+2020{-}12{-}14 14:14:46&Loss&E05&2.0\\%
+2020{-}12{-}14 14:14:48&Reacquisition&E05&nan\\%
+2020{-}12{-}14 14:14:55&Loss&E24&2.0\\%
+2020{-}12{-}14 14:14:57&Reacquisition&E24&nan\\%
+2020{-}12{-}14 14:15:01&Loss&E05&2.0\\%
+2020{-}12{-}14 14:15:03&Reacquisition&E05&nan\\%
+2020{-}12{-}14 14:15:10&Loss&E24&2.0\\%
+2020{-}12{-}14 14:15:12&Reacquisition&E24&nan\\%
+2020{-}12{-}14 14:15:14&Loss&E05&3.0\\%
+2020{-}12{-}14 14:15:17&Reacquisition&E05&nan\\%
+2020{-}12{-}14 14:15:20&Loss&E05&3.0\\%
+2020{-}12{-}14 14:15:22&Loss&E24&2.0\\%
+2020{-}12{-}14 14:15:23&Reacquisition&E05&nan\\%
+2020{-}12{-}14 14:15:24&Reacquisition&E24&nan\\%
+2020{-}12{-}14 14:15:24&Loss&E24&2.0\\%
+2020{-}12{-}14 14:15:26&Reacquisition&E24&nan\\%
+2020{-}12{-}14 14:15:27&Loss&E02&2.0\\%
+2020{-}12{-}14 14:15:27&Loss&E24&2.0\\%
+2020{-}12{-}14 14:15:29&Loss&E02&2.0\\%
+2020{-}12{-}14 14:15:29&Reacquisition&E02&nan\\%
+2020{-}12{-}14 14:15:29&Loss&E24&2.0\\%
+2020{-}12{-}14 14:15:29&Reacquisition&E24&nan\\%
+2020{-}12{-}14 14:15:31&Reacquisition&E24&nan\\%
+2020{-}12{-}14 14:15:31&Reacquisition&E02&nan\\%
+2020{-}12{-}14 14:15:32&Loss&E02&3.0\\%
+2020{-}12{-}14 14:15:35&Reacquisition&E02&nan\\%
+2020{-}12{-}14 14:15:37&Loss&E25&2.0\\%
+2020{-}12{-}14 14:15:38&Loss&E08&2.0\\%
+2020{-}12{-}14 14:15:39&Loss&E02&3.0\\%
+2020{-}12{-}14 14:15:39&Reacquisition&E25&nan\\%
+2020{-}12{-}14 14:15:40&Reacquisition&E08&nan\\%
+2020{-}12{-}14 14:15:42&Reacquisition&E02&nan\\%
+2020{-}12{-}14 14:15:47&Loss&E25&2.0\\%
+2020{-}12{-}14 14:15:47&Loss&E02&3.0\\%
+2020{-}12{-}14 14:15:49&Reacquisition&E25&nan\\%
+2020{-}12{-}14 14:15:50&Reacquisition&E02&nan\\%
+2020{-}12{-}14 14:15:52&Loss&E03&2.0\\%
+2020{-}12{-}14 14:15:54&Reacquisition&E03&nan\\%
+2020{-}12{-}14 14:15:55&Loss&E03&2.0\\%
+2020{-}12{-}14 14:15:56&Loss&E25&2.0\\%
+2020{-}12{-}14 14:15:57&Loss&E08&2.0\\%
+2020{-}12{-}14 14:15:57&Reacquisition&E03&nan\\%
+2020{-}12{-}14 14:15:58&Reacquisition&E25&nan\\%
+2020{-}12{-}14 14:15:59&Reacquisition&E08&nan\\%
+2020{-}12{-}14 14:16:01&Loss&E25&2.0\\%
+2020{-}12{-}14 14:16:03&Reacquisition&E25&nan\\%
+2020{-}12{-}14 14:16:03&Loss&E25&2.0\\%
+2020{-}12{-}14 14:16:04&Loss&E03&2.0\\%
+2020{-}12{-}14 14:16:05&Reacquisition&E25&nan\\%
+2020{-}12{-}14 14:16:06&Loss&E08&4.0\\%
+2020{-}12{-}14 14:16:06&Reacquisition&E03&nan\\%
+2020{-}12{-}14 14:16:06&Loss&E03&2.0\\%
+2020{-}12{-}14 14:16:08&Reacquisition&E03&nan\\%
+2020{-}12{-}14 14:16:10&Reacquisition&E08&nan\\%
+2020{-}12{-}14 14:16:12&Loss&E05&3.0\\%
+2020{-}12{-}14 14:16:15&Reacquisition&E05&nan\\%
+2020{-}12{-}14 14:16:15&Loss&E08&2.0\\%
+2020{-}12{-}14 14:16:17&Reacquisition&E08&nan\\%
+2020{-}12{-}14 14:16:22&Loss&E05&2.0\\%
+2020{-}12{-}14 14:16:24&Reacquisition&E05&nan\\%
+2020{-}12{-}14 14:16:25&Loss&E05&5.0\\%
+2020{-}12{-}14 14:16:25&Loss&E24&304.0\\%
+2020{-}12{-}14 14:16:28&Loss&PNT&2.0\\%
+2020{-}12{-}14 14:16:28&Loss&E02&2.0\\%
+2020{-}12{-}14 14:16:30&Reacquisition&PNT&nan\\%
+2020{-}12{-}14 14:16:30&Reacquisition&E05&nan\\%
+2020{-}12{-}14 14:16:30&Reacquisition&E02&nan\\%
+2020{-}12{-}14 14:16:32&Loss&PNT&3.0\\%
+2020{-}12{-}14 14:16:32&Loss&E02&3.0\\%
+2020{-}12{-}14 14:16:32&Loss&E05&298.0\\%
+2020{-}12{-}14 14:16:35&Reacquisition&E02&nan\\%
+2020{-}12{-}14 14:16:35&Reacquisition&PNT&nan\\%
+2020{-}12{-}14 14:16:39&Loss&PNT&12.0\\%
+2020{-}12{-}14 14:16:39&Loss&E02&12.0\\%
+2020{-}12{-}14 14:16:45&Loss&E25&2.0\\%
+2020{-}12{-}14 14:16:47&Reacquisition&E25&nan\\%
+2020{-}12{-}14 14:16:51&Reacquisition&E02&nan\\%
+2020{-}12{-}14 14:16:51&Reacquisition&PNT&nan\\%
+2020{-}12{-}14 14:16:52&Loss&PNT&277.0\\%
+2020{-}12{-}14 14:16:52&Loss&E02&277.0\\%
+2020{-}12{-}14 14:16:54&Loss&E25&275.0\\%
+2020{-}12{-}14 14:16:55&Loss&E03&274.0\\%
+2020{-}12{-}14 14:16:56&Loss&E08&5.0\\%
+2020{-}12{-}14 14:17:01&Reacquisition&E08&nan\\%
+2020{-}12{-}14 14:17:01&Loss&E08&268.0\\%
+2020{-}12{-}14 14:21:29&Reacquisition&E08&nan\\%
+2020{-}12{-}14 14:21:29&Reacquisition&E24&nan\\%
+2020{-}12{-}14 14:21:29&Reacquisition&E02&nan\\%
+2020{-}12{-}14 14:21:29&Reacquisition&E03&nan\\%
+2020{-}12{-}14 14:21:29&Reacquisition&PNT&nan\\%
+2020{-}12{-}14 14:21:29&Reacquisition&E25&nan\\%
+2020{-}12{-}14 14:21:30&Reacquisition&E05&nan\\%
+\hline%
+\end{longtabu}%
+\end{enumerate}
+

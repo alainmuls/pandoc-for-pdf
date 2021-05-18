@@ -1,0 +1,53 @@
+\subsection{Analysis of observation statistics for GPS NavSTAR}%
+\label{subsec:AnalysisofobservationstatisticsforGPSNavSTAR}%
+\setlength{\tabcolsep}{4pt}%
+\begin{longtabu}[c]{rcl}%
+statistics observation file&:&P3RS04BEL\_R\_20203490000\_01D\_00U\_MO\_G.obsstat\\%
+navigation signals&:&G1C\\%
+\end{longtabu}%
+\subsubsection{Observables count per navigation signal}%
+\label{ssubsec:Observablescountpernavigationsignal}%
+The following table represents the number of observations made for each examined navigation signal. The percentages per navigation signal are calculated by dividing by the  number of observations obtained from Two Line Elements (TLE) at the recorded interval. The last column represents the number of observations possible during the observed time interval.%
+\setlength{\tabcolsep}{4pt}%
+\begin{longtabu}[c]{l|rr|r}%
+\textbf{PRN}&\textbf{G1C}&\textbf{}&\textbf{TLE\_count}\\%
+\hline%
+\endhead%
+\hline%
+\multicolumn{4}{r}{Continued on Next Page}\\%
+\hline%
+\endfoot%
+\hline%
+\endlastfoot%
+G05&622&34.6\%&1799.0\\%
+G13&916&50.9\%&1799.0\\%
+G14&933&{-}{-}{-}&0\\%
+G15&838&46.6\%&1799.0\\%
+G17&334&18.6\%&1799.0\\%
+G20&539&30.0\%&1799.0\\%
+G23&780&43.4\%&1799.0\\%
+G24&815&45.3\%&1799.0\\%
+G28&941&52.3\%&1799.0\\%
+G30&556&30.9\%&1799.0\\%
+\end{longtabu}%
+Figure \ref{fig:obst_gnss_G} represents the absolute count of observables for each navigation signal set out against the maximum possible observations obtained from the TLEs. The relative observation count is represented in Figure \ref{fig:prec_obst_gnss_G}.%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\textwidth]{png/P3RS04BEL_R_20203490000_01D_00U_MO_G-ObsTLE.png}%
+\caption{\label{fig:obst_gnss_G} Observables overview for GNSS GPS NavSTAR}%
+\end{figure}
+
+%
+
+
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=0.95\textwidth]{png/P3RS04BEL_R_20203490000_01D_00U_MO_G-PERC.png}%
+\caption{\label{fig:prec_obst_gnss_G} Relative observation count per navigation signal for GNSS GPS NavSTAR}%
+\end{figure}
+
+%
+\clearpage
+
